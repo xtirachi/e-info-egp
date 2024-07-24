@@ -54,7 +54,7 @@ iframe {
 
 .back-button {
     display: inline-block;
-    margin-top: 20px;
+    margin: 20px auto;
     padding: 10px 20px;
     background-color: #ff9800;
     color: white;
