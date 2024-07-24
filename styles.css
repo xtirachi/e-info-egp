@@ -5,6 +5,7 @@ body {
     color: #333;
     text-align: center;
     padding: 20px;
+    margin: 0;
 }
 
 header {
@@ -20,7 +21,8 @@ header {
 
 h1 {
     color: #ff9800;
-    font-size: 2em;
+    font-size: 1.5em;
+    margin: 10px 0;
 }
 
 main {
@@ -29,8 +31,8 @@ main {
 
 .ebooks {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
+    align-items: center;
     gap: 20px;
 }
 
@@ -39,9 +41,8 @@ main {
     border: 2px solid #ff9800;
     border-radius: 10px;
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
-    padding: 10px;
-    width: 45%;
-    max-width: 300px;
+    width: 100%;
+    max-width: 600px;
     height: 400px;
     overflow: hidden;
 }
@@ -50,4 +51,20 @@ iframe {
     width: 100%;
     height: 100%;
     border: none;
+}
+
+.back-button {
+    background-color: #4caf50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-size: 1em;
+    cursor: pointer;
+    margin-top: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.back-button:hover {
+    background-color: #388e3c;
 }
